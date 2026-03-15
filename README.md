@@ -240,7 +240,7 @@ Selectel Object Storage работает с приватными бакетам�
 
 ### Схема архитектуры
 
-![Схема микросервисов](https://raw.githubusercontent.com/<username>/<repo>/main/assets/microservices-diagram.png)
+![Схема микросервисов]([https://raw.githubusercontent.com/<username>/<repo>/main/assets/microservices-diagram.png](https://habrastorage.org/r/w1560/getpro/habr/upload_files/435/16d/abd/43516dabdaf446295ab981d68f4f6f41.png))
 
 ---
 
