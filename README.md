@@ -51,7 +51,17 @@
 
 ### 3.3 Схема
 
----
+flowchart TB
+    subgraph VPC [VPC (Virtual Private Cloud)]
+        APP[App Server<br/>(Cloud Compute)]
+        DB[DB Server<br/>(PostgreSQL)]
+    end
+
+    S3[(S3 Object Storage)]
+
+    APP -->|HTTPS / S3 API| S3
+    APP --- DB
+
 
 ## 4. Редактирование текста
 
